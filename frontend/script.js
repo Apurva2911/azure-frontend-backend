@@ -1,5 +1,5 @@
 function loadData() {
-  fetch("https://devops-backend-demo.azurewebsites.net/api/hello")
+  fetch("https://devops-backend-demo-hdcab8asa3bwewaz.centralindia-01.azurewebsites.net/api/hello")
     .then(res => res.json())
     .then(data => {
       document.getElementById("result").innerText =
